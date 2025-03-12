@@ -6,7 +6,7 @@ interface LogoProps {
 }
 
 const Logo = ({ width = "160px", height = "80px" }: LogoProps) => {
-  const logoSrc = "/public/whiteslate.png"; // Permanent dark mode image
+  const logoSrc = "/whiteslate.png"; // Permanent dark mode image
 
   return (
     <motion.div
