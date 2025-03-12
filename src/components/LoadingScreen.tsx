@@ -29,7 +29,7 @@ const LoadingScreen = () => {
         >
           {/* Replace the Logo component with an image (your GIF) */}
           <img
-            src="/whitegif.gif" 
+            src="./whitegif.gif" 
             alt="Loading..."
             className="w-50 h-50"
           />
