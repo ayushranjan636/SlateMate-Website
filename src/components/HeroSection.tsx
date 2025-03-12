@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const images = [
-  "/public/dummy1.webp",
-  "/public/dummy2.jpg",
-  "/public/dummy3.avif",
+  "/dummy1.webp",
+  "/dummy2.jpg",
+  "/dummy3.avif",
 ];
 
 const HeroSection = () => {
