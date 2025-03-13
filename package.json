@@ -1,12 +1,9 @@
 {
-  "homepage": "https://slatemate.in"
-}
-
-{
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://slatemate.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
