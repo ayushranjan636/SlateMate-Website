@@ -12,6 +12,21 @@ import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 import StudentDashboard from "./pages/StudentDashboard";
 import NotFound from "./pages/NotFound";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+import YourMainComponent from "./YourMainComponent";
+
+function App() {
+  return (
+    <Router>
+      <YourMainComponent />
+      <Analytics />
+    </Router>
+  );
+}
+
+export default App;
+
 
 const queryClient = new QueryClient();
 
